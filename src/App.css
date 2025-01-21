@@ -1,0 +1,80 @@
+#root {
+  margin: auto;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  min-width: 300px;
+  max-width: 1200px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.task-input {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.task-input input {
+  padding: 10px;
+  min-width: 200px;
+  width: 100%;
+  align-items: center;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.task-input button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  flex-shrink: 0;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-input button:hover {
+  background-color: #218838;
+}
+
+.tabs {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 8px;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.tabs button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.tabs button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+.task-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.task-list li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
